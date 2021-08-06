@@ -29,9 +29,7 @@ std::string generateUUID(){
         }
         sstream << std::hex << myList[i];
     }
-    std::string r = sstream.str();
-
-    return r;
+    return sstream.str();
 }
 
 int main(){
